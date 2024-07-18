@@ -1,0 +1,20 @@
+{
+  "name": "@basixjs/yarn-plugin-sensible",
+  "private": true,
+  "main": "./sources/index.ts",
+  "dependencies": {
+    "@yarnpkg/cli": "^4.2.1",
+    "@yarnpkg/core": "^4.0.5",
+    "clipanion": "^4.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@yarnpkg/builder": "^4.1.1",
+    "typescript": "5.5.0-beta"
+  },
+  "scripts": {
+    "build": "builder build plugin",
+    "build:dev": "builder build plugin --no-minify",
+    "clean": "rm -rf bundles"
+  }
+}

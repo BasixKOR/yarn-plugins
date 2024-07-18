@@ -1,0 +1,14 @@
+{
+  "extends": ["../../tsconfig.json"],
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "target": "ES2021",
+    "lib": [
+      "ES2021"
+    ]
+  },
+  "include": [
+    "sources/**/*.ts"
+  ]
+}

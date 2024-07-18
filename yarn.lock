@@ -165,6 +165,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@basixjs/yarn-plugin-sensible@workspace:packages/sensible":
+  version: 0.0.0-use.local
+  resolution: "@basixjs/yarn-plugin-sensible@workspace:packages/sensible"
+  dependencies:
+    "@types/node": "npm:^20.0.0"
+    "@yarnpkg/builder": "npm:^4.1.1"
+    "@yarnpkg/cli": "npm:^4.2.1"
+    "@yarnpkg/core": "npm:^4.0.5"
+    clipanion: "npm:^4.0.0-rc.2"
+    typescript: "npm:5.5.0-beta"
+  languageName: unknown
+  linkType: soft
+
 "@biomejs/biome@npm:1.8.3":
   version: 1.8.3
   resolution: "@biomejs/biome@npm:1.8.3"
@@ -334,7 +347,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^20.0.0":
   version: 20.14.11
   resolution: "@types/node@npm:20.14.11"
   dependencies:
@@ -2248,6 +2261,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript@npm:5.5.0-beta":
+  version: 5.5.0-beta
+  resolution: "typescript@npm:5.5.0-beta"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/e4b029678d6e77514355a79bb2b30e80784712b58cdb1391e07d2282aefceaff7850edf16814f6b4b9d4f23c84372afdfc6165cb628adc5303274fff8a795ce5
+  languageName: node
+  linkType: hard
+
 "typescript@npm:5.5.3":
   version: 5.5.3
   resolution: "typescript@npm:5.5.3"
@@ -2255,6 +2278,16 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 10c0/f52c71ccbc7080b034b9d3b72051d563601a4815bf3e39ded188e6ce60813f75dbedf11ad15dd4d32a12996a9ed8c7155b46c93a9b9c9bad1049766fe614bbdd
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A5.5.0-beta#optional!builtin<compat/typescript>":
+  version: 5.5.0-beta
+  resolution: "typescript@patch:typescript@npm%3A5.5.0-beta#optional!builtin<compat/typescript>::version=5.5.0-beta&hash=b45daf"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/665f9f8140409b79ee61a695627842d49430ce944571b44c3fe81c05a0359041f2aa267e5e5639dfdb844da47c7a542f7a534fe301533c846a20c63cd9ff1d53
   languageName: node
   linkType: hard
 
