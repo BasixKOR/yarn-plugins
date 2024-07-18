@@ -1,0 +1,7 @@
+{
+  "name": "yarn-plugins",
+  "packageManager": "yarn@4.3.1",
+  "workspaces": [
+    "packages/*"
+  ]
+}
